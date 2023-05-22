@@ -1,0 +1,35 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>2_12課題</title>
+    <style>
+        .parent {
+            border: solid 5px red;
+        }
+
+        .child1 {
+            margin-left: 20px;
+            border: solid 5px yellow;
+        }
+
+        .child2 {
+            margin-left: inherit;
+            border: solid 5px green;
+        }
+    </style>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <div class="parent">
+        継承テスト1
+        <div class="child1">
+            継承テスト2
+            <div class="child2">継承テスト3</div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
